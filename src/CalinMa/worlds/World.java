@@ -21,7 +21,7 @@ public class World {
     public EntityManager getEntityManager() {
         return entityManager;
     }
-
+    // here we can add entities to the map, like the three trees that you see below
     public World(Handler handler, String path){
        this.handler = handler;
         entityManager = new EntityManager(handler, new Player(handler, 100, 100));

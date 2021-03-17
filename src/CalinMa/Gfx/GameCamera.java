@@ -4,6 +4,9 @@ import CalinMa.Entities.Entity;
 import CalinMa.Tiles.Tile;
 import CalinMa.Handler;
 
+//The viewport, camera of the game
+//It will move along with the player
+//It won't go out of the map
 
 public class GameCamera {
     private Handler handler;

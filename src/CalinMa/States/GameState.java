@@ -12,9 +12,9 @@ public class  GameState extends State {
 
     public GameState(Handler handler){
         super(handler);
-        world = new World(handler,"C:\\Users\\LEGION\\Downloads\\PrimulMeuJoc\\Res\\worlds\\world1.txt");
+        world = new World(handler,"C:\\Users\\LEGION\\Downloads\\PrimulMeuJoc\\Res\\worlds\\world1.txt"); // file for building the map
         handler.setWorld(world);
-        player = new Player(handler,100,100);
+        player = new Player(handler,100,100); // new player and its size
     }
     @Override
     public void tick() {

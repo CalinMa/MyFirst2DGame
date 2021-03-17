@@ -4,7 +4,7 @@ package CalinMa;
 
 import javax.swing.*;
 import java.awt.*;
-
+// the display window where we play the game, that pops up at 'run';
 public class Display {
     private JFrame frame;
     private Canvas canvas;

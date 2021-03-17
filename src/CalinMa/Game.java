@@ -87,9 +87,6 @@ public class Game implements Runnable {
         //Draw here!
         if (State.getState() != null)
             State.getState().render(g);
-
-
-
         //g.drawImage(sheet.crop(80, 0, 41, 40) , 5, 5 ,null);
         //g.drawImage(test, 20, 20, null);
 

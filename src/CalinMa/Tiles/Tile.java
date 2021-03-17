@@ -2,7 +2,8 @@ package CalinMa.Tiles;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
-
+// The tiles that will build the map
+// You can see and change the game map in Res/worlds/world1.txt
 public class Tile {
     //Static Stuff Here
     public static Tile[] tiles = new Tile[256];

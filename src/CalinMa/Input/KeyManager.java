@@ -2,6 +2,8 @@ package CalinMa.Input;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+//the way we work with the keyboard
+//KeyListener is an interface
 
 public class KeyManager implements KeyListener {
     private boolean[] keys;

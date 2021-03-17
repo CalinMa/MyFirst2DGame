@@ -3,7 +3,7 @@ package CalinMa.Gfx;
 import java.awt.image.BufferedImage;
 
 public class Assets {
-
+    // the file sheet.png from Res/textures/ is the sheet from where entities are taken
     private static final int width = 40, height = 40;
     public static BufferedImage  dirt, grass, stone, tree;
     public static BufferedImage[] player_down, player_up, player_left, player_right;
